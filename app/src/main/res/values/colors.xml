@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="base_btn_color_normal">#E2E2E2</color>
+    <color name="base_blue">#ff007dff</color>
+    <color name="base_yellow">#EFFF00</color>
+    <color name="base_text">#27261F</color>
+
+
+</resources>
