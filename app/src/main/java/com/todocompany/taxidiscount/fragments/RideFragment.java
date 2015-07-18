@@ -1,5 +1,6 @@
 package com.todocompany.taxidiscount.fragments;
 
+
 import android.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -16,23 +17,20 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.todocompany.taxidiscount.R;
 
-/**
- * Created by Andriy on 18.07.2015.
- */
-public class AddLocationFragment extends Fragment {
+public class RideFragment extends Fragment {
 
     private static final int STREET_VIEW_ACCURACY = 100;
     LatLng markerPosition = new LatLng(49.840550, 24.028200);
     RadioButton btnMapView, btnStreetView;
     FrameLayout mapsContainer;
     View rootView;
-    String pickup, details;
+    String pickup, destination, details;
     private MapView mapView;
     private StreetViewPanoramaView streetView;
     private GoogleMap googleMap;
     private StreetViewPanorama streetPanorama;
 
-    public AddLocationFragment() {
+    public RideFragment() {
         // Required empty public constructor
     }
 
@@ -40,7 +38,7 @@ public class AddLocationFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        rootView = inflater.inflate(R.layout.fragment_add_location, container, false);
+        rootView = inflater.inflate(R.layout.fragment_set_pickup, container, false);
         btnMapView = (RadioButton) rootView.findViewById(R.id.btn_map_view);
         btnStreetView = (RadioButton) rootView.findViewById(R.id.btn_street_view);
         mapsContainer = (FrameLayout) rootView.findViewById(R.id.mapsContainer);
@@ -136,12 +134,16 @@ public class AddLocationFragment extends Fragment {
             btnStreetView.setChecked(true);
             btnMapView.setChecked(false);
             streetPanorama.setPosition(markerPosition, STREET_VIEW_ACCURACY);
+            mapView.setVisibility(View.INVISIBLE);
             streetView.setVisibility(View.VISIBLE);
         } else {
             btnMapView.setChecked(true);
             btnStreetView.setChecked(false);
+            mapView.setVisibility(View.VISIBLE);
             streetView.setVisibility(View.INVISIBLE);
         }
 
     }
+
+
 }

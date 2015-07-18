@@ -1,6 +1,9 @@
 package com.todocompany.taxidiscount;
 
 import android.os.Bundle;
+import android.util.TypedValue;
+import android.view.Gravity;
+import android.widget.TextView;
 
 import com.todocompany.taxidiscount.fragments.AddLocationFragment;
 import com.todocompany.taxidiscount.fragments.ProfileFragment;
@@ -11,11 +14,18 @@ import it.neokree.materialnavigationdrawer.elements.MaterialAccount;
 
 public class MapsActivity extends MaterialNavigationDrawer {
 
+    TextView tvInfo;
+
     @Override
     public void init(Bundle bundle) {
 
         getToolbar().setTitleTextColor(getResources().getColor(R.color.base_yellow));
 
+        tvInfo = new TextView(this);
+        tvInfo.setGravity(Gravity.END);
+        tvInfo.setText("Test text 4545");
+        tvInfo.setTextSize(TypedValue.COMPLEX_UNIT_SP, 12);
+        getToolbar().addView(tvInfo);
 
         disableLearningPattern();
         addAccount(new MaterialAccount(getResources(), "USER", "", R.mipmap.ic_launcher, null));
