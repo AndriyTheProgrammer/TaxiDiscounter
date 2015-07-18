@@ -97,6 +97,7 @@
             android:id="@+id/et_set_destination"
             android:layout_width="match_parent"
             android:layout_height="40dp"
+            android:drawableLeft="@mipmap/ic_launcher"
             android:hint="Set Destination"
             android:textColor="@color/base_text"
             android:textColorHint="@color/base_text"
