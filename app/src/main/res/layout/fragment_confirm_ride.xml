@@ -131,7 +131,7 @@
             android:layout_width="25dp"
             android:layout_height="25dp"
             android:layout_gravity="center"
-            android:src="@mipmap/eur.png" />
+            android:src="@mipmap/eur" />
 
         <TextView
             android:id="@+id/textView22"
@@ -179,7 +179,7 @@
             android:layout_width="25dp"
             android:layout_height="25dp"
             android:layout_gravity="center"
-            android:src="@mipmap/saving.png" />
+            android:src="@mipmap/saving" />
 
         <TextView
             android:id="@+id/textView23"
