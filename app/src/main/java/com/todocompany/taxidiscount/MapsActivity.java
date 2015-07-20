@@ -10,6 +10,7 @@ import com.todocompany.taxidiscount.fragments.ConfirmRideFragment;
 import com.todocompany.taxidiscount.fragments.FindingDriverFragment;
 import com.todocompany.taxidiscount.fragments.HelpFragment;
 import com.todocompany.taxidiscount.fragments.MyOrdersFragment;
+import com.todocompany.taxidiscount.fragments.OnTheWayFragment;
 import com.todocompany.taxidiscount.fragments.RegistrationFragment;
 import com.todocompany.taxidiscount.fragments.RideFragment;
 import com.todocompany.taxidiscount.fragments.SetPickupFragment;
@@ -49,6 +50,7 @@ public class MapsActivity extends MaterialNavigationDrawer {
         addSection(newSection("REGISTER", R.mipmap.ic_launcher, new RegistrationFragment()));
         addSection(newSection("FINDING DRIVER", R.mipmap.ic_launcher, new FindingDriverFragment()));
         addSection(newSection("CONFIRM RIDE", R.mipmap.ic_launcher, new ConfirmRideFragment()));
+        addSection(newSection("RIDE", R.mipmap.ic_launcher, new OnTheWayFragment()));
 
 
         //==========================================

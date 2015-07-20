@@ -114,19 +114,7 @@ public class SetPickupFragment extends Fragment {
 
     private void setUpMap() {
         googleMap.addMarker(new MarkerOptions().position(markerPosition).title("L'viv"));
-        googleMap.setOnMapClickListener(new GoogleMap.OnMapClickListener() {
-            @Override
-            public void onMapClick(LatLng latLng) {
-                markerPosition = latLng;
-                /**
-                 * Ensure the street view has been initialised correctly and
-                 * pass it through the selected lat/long co-ordinates.
-                 */
-                if (streetView != null) {
-                    enableStreetView(true);
-                }
-            }
-        });
+
     }
 
     private void enableStreetView(boolean isEnabled) {
@@ -135,14 +123,10 @@ public class SetPickupFragment extends Fragment {
             streetPanorama = streetView.getStreetViewPanorama();
         }
         if (isEnabled & markerPosition != null) {
-            btnStreetView.setChecked(true);
-            btnMapView.setChecked(false);
             streetPanorama.setPosition(markerPosition, STREET_VIEW_ACCURACY);
             mapView.setVisibility(View.INVISIBLE);
             streetView.setVisibility(View.VISIBLE);
         } else {
-            btnMapView.setChecked(true);
-            btnStreetView.setChecked(false);
             mapView.setVisibility(View.VISIBLE);
             streetView.setVisibility(View.INVISIBLE);
         }
