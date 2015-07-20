@@ -6,6 +6,8 @@ import android.view.Gravity;
 import android.widget.TextView;
 
 import com.todocompany.taxidiscount.fragments.AddLocationFragment;
+import com.todocompany.taxidiscount.fragments.ConfirmRideFragment;
+import com.todocompany.taxidiscount.fragments.FindingDriverFragment;
 import com.todocompany.taxidiscount.fragments.HelpFragment;
 import com.todocompany.taxidiscount.fragments.MyOrdersFragment;
 import com.todocompany.taxidiscount.fragments.RegistrationFragment;
@@ -45,6 +47,8 @@ public class MapsActivity extends MaterialNavigationDrawer {
         addSection(newSection("ADD LOCATION", R.mipmap.ic_launcher, new AddLocationFragment()));
         addSection(newSection("RIDE", R.mipmap.ic_launcher, new RideFragment()));
         addSection(newSection("REGISTER", R.mipmap.ic_launcher, new RegistrationFragment()));
+        addSection(newSection("FINDING DRIVER", R.mipmap.ic_launcher, new FindingDriverFragment()));
+        addSection(newSection("CONFIRM RIDE", R.mipmap.ic_launcher, new ConfirmRideFragment()));
 
 
         //==========================================
