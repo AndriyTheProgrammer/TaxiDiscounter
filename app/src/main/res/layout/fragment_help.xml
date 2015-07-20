@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_white"
+    android:orientation="vertical"
+    tools:context="com.todocompany.taxidiscount.fragments.HelpFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/btnPrivacyPolicy"
+        style="@style/BaseButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/lock"
+        android:drawablePadding="5dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="Privacy Policy"
+        android:textStyle="normal" />
+
+    <Button
+        android:id="@+id/btnTermsConditions"
+        style="@style/BaseButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/history"
+        android:drawablePadding="5dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="Terms &amp; Conditions"
+        android:textStyle="normal" />
+
+    <Button
+        android:id="@+id/btnCallUs"
+        style="@style/BaseButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/phone"
+        android:drawablePadding="5dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="Call us"
+        android:textStyle="normal" />
+</LinearLayout>

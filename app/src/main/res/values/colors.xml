@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="base_btn_color_normal">#E2E2E2</color>
+    <color name="base_white">#ffffffff</color>
+    <color name="base_gray">#fff8f8f8</color>
+    <color name="base_gray_light">#E2E2E2</color>
     <color name="base_blue">#ff007dff</color>
     <color name="base_yellow">#EFFF00</color>
     <color name="base_text">#27261F</color>
+
+
+    <color name="et_hint_color">#A1A1A1</color>
 
 
 </resources>

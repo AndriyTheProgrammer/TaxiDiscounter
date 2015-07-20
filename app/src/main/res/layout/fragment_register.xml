@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_white"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editText5"
+        style="@style/BaseEditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:drawableLeft="@mipmap/my_profile"
+        android:drawablePadding="10dp"
+        android:hint="Name"
+        android:text="Datoe Fadly"
+        android:textColor="@color/base_text"
+        android:textColorHint="@color/et_hint_color"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/editText6"
+        style="@style/BaseEditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:drawableLeft="@mipmap/phone"
+        android:drawablePadding="10dp"
+        android:hint="Mobile Number"
+        android:inputType="phone"
+        android:text="098765432100"
+        android:textColor="@color/base_text"
+        android:textColorHint="@color/et_hint_color"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/editText7"
+        style="@style/BaseEditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:drawableLeft="@mipmap/mail"
+        android:drawablePadding="10dp"
+        android:hint="Email"
+        android:text="datoe.fadly@rocketmail.com"
+        android:textColor="@color/base_text"
+        android:textColorHint="@color/et_hint_color"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/BaseButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:text="REGISTER" />
+</LinearLayout>

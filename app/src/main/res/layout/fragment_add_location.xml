@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#fff2f5f2"
+    android:background="@color/base_white"
     android:orientation="vertical">
 
     <LinearLayout
@@ -87,24 +87,31 @@
 
             <EditText
                 android:id="@+id/editText"
+                style="@style/BaseEditTextStyle"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:layout_weight="2"
+                android:drawableLeft="@mipmap/detail_location"
+                android:drawablePadding="@dimen/drawable_padding"
                 android:hint="Set Pickup"
+                android:paddingTop="5dp"
                 android:textColor="@color/base_text"
-                android:textColorHint="@color/base_text"
+                android:textColorHint="@color/et_hint_color"
                 android:textSize="14sp" />
 
         </LinearLayout>
 
         <EditText
             android:id="@+id/et_set_destination"
+            style="@style/BaseEditTextStyle"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:drawableLeft="@mipmap/ic_launcher"
+            android:drawableLeft="@mipmap/detail_location"
+            android:drawablePadding="@dimen/drawable_padding"
             android:hint="Enter location details"
+            android:paddingTop="5dp"
             android:textColor="@color/base_text"
-            android:textColorHint="@color/base_text"
+            android:textColorHint="@color/et_hint_color"
             android:textSize="14sp" />
 
         <Button

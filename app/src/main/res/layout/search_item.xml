@@ -10,7 +10,7 @@
         android:layout_height="match_parent"
         android:layout_marginLeft="6dp"
         android:layout_weight="3"
-        android:src="@drawable/abc_ic_menu_paste_mtrl_am_alpha" />
+        android:src="@mipmap/current_location" />
 
     <LinearLayout
         android:layout_width="match_parent"
