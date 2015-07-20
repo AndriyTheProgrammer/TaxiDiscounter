@@ -46,7 +46,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginLeft="10dp"
-            android:drawableLeft="@mipmap/my_profile"
+            android:drawableLeft="@mipmap/profile"
             android:drawablePadding="@dimen/drawable_padding"
             android:text="Datoe Fadly"
             android:textColor="@color/base_text"

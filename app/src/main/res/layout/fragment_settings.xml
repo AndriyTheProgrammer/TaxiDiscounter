@@ -9,39 +9,26 @@
     <!-- TODO: Update blank fragment layout -->
 
     <Button
-        android:id="@+id/btnPrivacyPolicy"
+        android:id="@+id/btnProfile"
         style="@style/BaseButtonStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:drawableLeft="@mipmap/lock"
+        android:drawableLeft="@mipmap/profile"
         android:drawablePadding="5dp"
         android:gravity="center_vertical"
         android:paddingLeft="10dp"
-        android:text="Privacy Policy"
+        android:text="Profile"
         android:textStyle="normal" />
 
     <Button
-        android:id="@+id/btnTermsConditions"
         style="@style/BaseButtonStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:drawableLeft="@mipmap/history"
+        android:drawableLeft="@mipmap/log_out"
         android:drawablePadding="5dp"
         android:gravity="center_vertical"
         android:paddingLeft="10dp"
-        android:text="Terms &amp; Conditions"
-        android:textStyle="normal" />
-
-    <Button
-        android:id="@+id/btnCallUs"
-        style="@style/BaseButtonStyle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:drawableLeft="@mipmap/phone"
-        android:drawablePadding="5dp"
-        android:gravity="center_vertical"
-        android:paddingLeft="10dp"
-        android:text="Call us"
+        android:text="Log out"
         android:textStyle="normal" />
 </LinearLayout>

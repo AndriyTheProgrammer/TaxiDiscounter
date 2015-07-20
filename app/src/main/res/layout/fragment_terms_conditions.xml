@@ -1,4 +1,4 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/base_white">
@@ -16,6 +16,7 @@
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
             android:text="Medium TextMedium TextMedium TextMedium TextMedium TextMedium TextMedium TextMedium TextMedium TextMedium TextMedium TextMedium TextMedium TextMedium TextMedium TextMedium TextMedium TextMedium TextMedium TextMedium TextMedium TextMedium TextMedium TextMedium TextMedium TextMedium TextMedium TextMedium TextMedium TextMedium TextMedium TextMedium TextMedium TextMedium Text"
-            android:textAppearance="?android:attr/textAppearanceMedium" />
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/base_text" />
     </ScrollView>
-</FrameLayout>
+</LinearLayout>

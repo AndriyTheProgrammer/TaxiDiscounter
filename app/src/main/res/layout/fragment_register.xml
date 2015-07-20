@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
-        android:drawableLeft="@mipmap/my_profile"
+        android:drawableLeft="@mipmap/profile"
         android:drawablePadding="10dp"
         android:hint="Name"
         android:text="Datoe Fadly"
