@@ -3,7 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/base_white"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="5dp">
 
     <EditText
         android:id="@+id/editText5"
@@ -15,6 +16,7 @@
         android:drawableLeft="@mipmap/profile"
         android:drawablePadding="10dp"
         android:hint="Name"
+        android:padding="8dp"
         android:text="Datoe Fadly"
         android:textColor="@color/base_text"
         android:textColorHint="@color/et_hint_color"
@@ -31,6 +33,7 @@
         android:drawablePadding="10dp"
         android:hint="Mobile Number"
         android:inputType="phone"
+        android:padding="8dp"
         android:text="098765432100"
         android:textColor="@color/base_text"
         android:textColorHint="@color/et_hint_color"
@@ -46,6 +49,7 @@
         android:drawableLeft="@mipmap/mail"
         android:drawablePadding="10dp"
         android:hint="Email"
+        android:padding="8dp"
         android:text="datoe.fadly@rocketmail.com"
         android:textColor="@color/base_text"
         android:textColorHint="@color/et_hint_color"

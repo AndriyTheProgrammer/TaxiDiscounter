@@ -46,8 +46,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
             android:drawableLeft="@mipmap/profile"
             android:drawablePadding="@dimen/drawable_padding"
+            android:padding="8dp"
             android:text="Datoe Fadly"
             android:textColor="@color/base_text"
             android:textColorHint="@color/et_hint_color" />
@@ -63,6 +65,7 @@
             android:drawablePadding="@dimen/drawable_padding"
             android:ems="10"
             android:inputType="textEmailAddress"
+            android:padding="8dp"
             android:text="datoe.fadly@rocketmail.com"
             android:textColor="@color/base_text"
             android:textColorHint="@color/et_hint_color" />
