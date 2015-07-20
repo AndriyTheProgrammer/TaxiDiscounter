@@ -2,12 +2,13 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="80dp"
+    android:background="@color/base_white"
     android:orientation="horizontal"
     android:padding="8dp">
 
     <ImageView
         android:id="@+id/imageView11"
-        android:layout_width="60dp"
+        android:layout_width="45dp"
         android:layout_height="match_parent"
         android:src="@mipmap/taxi" />
 
@@ -24,14 +25,18 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="6 June 2015, 15:00 PM"
-            android:textAppearance="?android:attr/textAppearanceMedium" />
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/base_text"
+            android:textSize="14sp" />
 
         <TextView
             android:id="@+id/textView29"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Cyber Building 1, Kuningan"
-            android:textAppearance="?android:attr/textAppearanceMedium" />
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/base_text"
+            android:textSize="16sp" />
     </LinearLayout>
 
     <ImageView

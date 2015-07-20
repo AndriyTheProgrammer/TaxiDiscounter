@@ -14,6 +14,7 @@
         android:gravity="center"
         android:text="SORRY NO DRIVERS AVAILABLE AT THE MOMENT"
         android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/base_text"
         android:textSize="18dp"
         android:textStyle="bold" />
 

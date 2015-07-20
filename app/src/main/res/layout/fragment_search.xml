@@ -22,7 +22,7 @@
             android:layout_marginRight="16dp"
             android:background="@drawable/search_edittext"
             android:drawableLeft="@drawable/abc_ic_search_api_mtrl_alpha"
-            android:text="Search"
+            android:hint="Search"
             android:textColor="@color/base_text"
             android:textColorHint="@color/base_text" />
     </FrameLayout>

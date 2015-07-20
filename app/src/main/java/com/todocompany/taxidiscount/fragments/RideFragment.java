@@ -15,6 +15,7 @@ import com.google.android.gms.maps.StreetViewPanorama;
 import com.google.android.gms.maps.StreetViewPanoramaView;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.todocompany.taxidiscount.MapsActivity;
 import com.todocompany.taxidiscount.R;
 
 public class RideFragment extends Fragment {
@@ -24,7 +25,6 @@ public class RideFragment extends Fragment {
     RadioButton btnMapView, btnStreetView;
     FrameLayout mapsContainer;
     View rootView;
-    String pickup, destination, details;
     private MapView mapView;
     private StreetViewPanoramaView streetView;
     private GoogleMap googleMap;
@@ -48,6 +48,7 @@ public class RideFragment extends Fragment {
         streetView.onCreate(savedInstanceState);
         enableStreetView(false);
 
+        ((MapsActivity) getActivity()).tvInfo.setVisibility(View.VISIBLE);
 
         btnMapView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -74,6 +75,8 @@ public class RideFragment extends Fragment {
         super.onResume();
         mapView.onResume();
         streetView.onResume();
+        ((MapsActivity) getActivity()).tvInfo.setVisibility(View.VISIBLE);
+
     }
 
     @Override
@@ -81,6 +84,8 @@ public class RideFragment extends Fragment {
         super.onPause();
         mapView.onPause();
         streetView.onPause();
+        ((MapsActivity) getActivity()).tvInfo.setVisibility(View.INVISIBLE);
+
     }
 
     @Override
@@ -88,6 +93,8 @@ public class RideFragment extends Fragment {
         super.onDestroy();
         mapView.onDestroy();
         streetView.onDestroy();
+        ((MapsActivity) getActivity()).tvInfo.setVisibility(View.INVISIBLE);
+
     }
 
     @Override
@@ -95,6 +102,8 @@ public class RideFragment extends Fragment {
         super.onLowMemory();
         mapView.onLowMemory();
         streetView.onLowMemory();
+        ((MapsActivity) getActivity()).tvInfo.setVisibility(View.INVISIBLE);
+
     }
 
     private void setUpMapIfNeeded() {

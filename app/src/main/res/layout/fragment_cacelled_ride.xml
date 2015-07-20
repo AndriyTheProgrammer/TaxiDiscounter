@@ -10,9 +10,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:text="YOU HAVE CANCELLED YOUR RIDE"
         android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/base_text"
         android:textSize="18dp"
         android:textStyle="bold" />
 
@@ -54,7 +55,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="or"
-            android:textAppearance="?android:attr/textAppearanceSmall" />
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/base_text" />
 
         <FrameLayout
             android:layout_width="2dp"

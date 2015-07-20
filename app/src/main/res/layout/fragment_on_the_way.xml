@@ -107,7 +107,7 @@
         android:orientation="vertical">
 
         <view
-            android:id="@+id/view2"
+            android:id="@+id/mapOnTheWay"
             class="com.google.android.gms.maps.MapView"
             android:layout_width="match_parent"
             android:layout_height="230dp"

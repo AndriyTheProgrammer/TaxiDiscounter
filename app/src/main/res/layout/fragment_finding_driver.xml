@@ -81,7 +81,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Standart fare "
-                android:textAppearance="?android:attr/textAppearanceMedium" />
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/base_text" />
 
             <TextView
                 android:id="@+id/textView10"
@@ -89,6 +90,7 @@
                 android:layout_height="wrap_content"
                 android:text="32,-"
                 android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/base_text"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 

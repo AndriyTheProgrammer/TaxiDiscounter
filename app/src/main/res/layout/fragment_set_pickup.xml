@@ -98,7 +98,7 @@
                 android:paddingTop="5dp"
                 android:textColor="@color/base_text"
                 android:textColorHint="@color/et_hint_color"
-                android:textSize="14sp" />
+                android:textSize="12sp" />
         </LinearLayout>
 
         <EditText
