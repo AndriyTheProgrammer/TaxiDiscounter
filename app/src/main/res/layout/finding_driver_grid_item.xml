@@ -37,14 +37,16 @@
             android:text="32,-"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textSize="20sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:textColor="@color/base_text" />
 
         <TextView
             android:id="@+id/textView12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Name"
-            android:textAppearance="?android:attr/textAppearanceMedium" />
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/base_text" />
 
     </LinearLayout>
 

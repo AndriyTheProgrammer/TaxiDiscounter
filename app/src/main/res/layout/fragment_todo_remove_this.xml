@@ -35,4 +35,34 @@
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="----Find driver item----"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold" />
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        layout="@layout/finding_driver_list_item"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="----Find driver item (grid)----"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold" />
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        layout="@layout/finding_driver_grid_item"
+        android:layout_gravity="center_horizontal" />
 </LinearLayout>
