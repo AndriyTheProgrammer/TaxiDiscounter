@@ -46,7 +46,7 @@ public class MapsActivity extends MaterialNavigationDrawer {
         addSection(newSection("MY ORDERS", R.mipmap.my_order, new MyOrdersFragment()));
         addSection(newSection("SETTINGS", R.mipmap.settings, new SettingsFragment()));
         addSection(newSection("HELP", R.mipmap.help, new HelpFragment()));
-        addSection(newSection("DRIVER APP", R.mipmap.driver_app, new SetPickupFragment()));
+        addSection(newSection("DRIVER APP", R.mipmap.driver_app, new RegistrationFragment()));
 
 
         // TODO remove ========================================
@@ -56,7 +56,7 @@ public class MapsActivity extends MaterialNavigationDrawer {
         addSection(newSection("REGISTER", R.mipmap.ic_launcher, new RegistrationFragment()));
         addSection(newSection("FINDING DRIVER", R.mipmap.ic_launcher, new FindingDriverFragment()));
         addSection(newSection("CONFIRM RIDE", R.mipmap.ic_launcher, new ConfirmRideFragment()));
-        addSection(newSection("search", R.mipmap.ic_launcher, new SearchFragment()));
+        addSection(newSection("SEARCH", R.mipmap.ic_launcher, new SearchFragment()));
         addSection(newSection("On the way", R.mipmap.ic_launcher, new OnTheWayFragment()));
         addSection(newSection("listView items", R.mipmap.ic_launcher, new TodoRemoveThisFragment()));
         addSection(newSection("cancelled ride", R.mipmap.ic_launcher, new CancelledRideFragment()));

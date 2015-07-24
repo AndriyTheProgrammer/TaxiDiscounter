@@ -91,27 +91,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:layout_weight="3"
-                android:drawableLeft="@mipmap/detail_location"
+                android:drawableLeft="@mipmap/pin_green"
                 android:drawablePadding="@dimen/drawable_padding"
                 android:hint="Set Pickup"
                 android:paddingTop="5dp"
                 android:textColor="@color/base_text"
                 android:textColorHint="@color/et_hint_color"
                 android:textSize="14sp" />
-
-            <EditText
-                android:id="@+id/editText8"
-                style="@style/BaseEditTextStyle"
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:layout_weight="4"
-                android:drawableLeft="@mipmap/detail_location"
-                android:drawablePadding="3dp"
-                android:hint="Enter Details"
-                android:paddingTop="5dp"
-                android:textColor="@color/base_text"
-                android:textColorHint="@color/et_hint_color"
-                android:textSize="12sp" />
 
         </LinearLayout>
 

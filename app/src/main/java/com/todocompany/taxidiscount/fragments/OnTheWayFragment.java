@@ -14,6 +14,8 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.todocompany.taxidiscount.R;
 
+import it.neokree.materialnavigationdrawer.MaterialNavigationDrawer;
+
 /**
  * A simple {@link Fragment} subclass.
  */
@@ -31,6 +33,8 @@ public class OnTheWayFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_on_the_way, container, false);
+        ((MaterialNavigationDrawer) getActivity()).setTitle("RIDE");
+
         mapView = (MapView) rootView.findViewById(R.id.mapOnTheWay);
         mapView.getMapAsync(new OnMapReadyCallback() {
             @Override

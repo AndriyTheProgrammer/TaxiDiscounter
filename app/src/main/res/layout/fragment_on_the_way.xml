@@ -57,6 +57,7 @@
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="2dp"
+            android:layout_marginTop="1dp"
             android:layout_weight="1"
             android:background="@color/base_gray_light" />
 
@@ -72,6 +73,7 @@
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="2dp"
+            android:layout_marginTop="1dp"
             android:layout_weight="1"
             android:background="@color/base_gray_light" />
     </LinearLayout>
@@ -98,7 +100,10 @@
             android:layout_height="match_parent"
             android:layout_margin="6dp"
             android:layout_weight="1"
-            android:background="@color/base_yellow" />
+            android:background="@color/base_yellow"
+            android:padding="3dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/msg_icon" />
     </LinearLayout>
 
     <LinearLayout

@@ -10,8 +10,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="8dp"
-        android:text="YOU HAVE CANCELLED YOUR RIDE"
+        android:layout_marginTop="16dp"
+        android:text="YOU HAVE CANCELED YOUR RIDE"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="@color/base_text"
         android:textSize="18dp"
@@ -20,8 +20,9 @@
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="200dp"
         android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
         android:src="@mipmap/happy_smiley" />
 
     <Button
@@ -45,8 +46,9 @@
 
         <FrameLayout
             android:layout_width="2dp"
-            android:layout_height="15dp"
-            android:background="@color/base_gray_light">
+            android:layout_height="8dp"
+            android:background="@color/base_gray_light"
+            android:visibility="invisible">
 
         </FrameLayout>
 
@@ -56,12 +58,14 @@
             android:layout_height="wrap_content"
             android:text="or"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:textColor="@color/base_text" />
+            android:textColor="@color/base_text"
+            android:textSize="18sp" />
 
         <FrameLayout
             android:layout_width="2dp"
-            android:layout_height="15dp"
-            android:background="@color/base_gray_light"></FrameLayout>
+            android:layout_height="8dp"
+            android:background="@color/base_gray_light"
+            android:visibility="invisible"></FrameLayout>
     </LinearLayout>
 
     <Button

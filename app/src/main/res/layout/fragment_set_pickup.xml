@@ -34,6 +34,7 @@
                 android:layout_marginLeft="1dp"
                 android:layout_weight="1"
                 android:button="@null"
+                android:checked="false"
                 android:text="STREET VIEW" />
         </RadioGroup>
 
@@ -78,7 +79,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:layout_weight="3"
-                android:drawableLeft="@mipmap/detail_location"
+                android:drawableLeft="@mipmap/pin_green"
                 android:drawablePadding="@dimen/drawable_padding"
                 android:hint="Set Pickup"
                 android:paddingTop="5dp"
@@ -106,7 +107,7 @@
             style="@style/BaseEditTextStyle"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:drawableLeft="@mipmap/detail_location"
+            android:drawableLeft="@mipmap/pin_red"
             android:drawablePadding="@dimen/drawable_padding"
             android:hint="Set Destination"
             android:paddingTop="5dp"

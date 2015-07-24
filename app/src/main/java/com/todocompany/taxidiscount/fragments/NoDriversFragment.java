@@ -9,6 +9,8 @@ import android.view.ViewGroup;
 
 import com.todocompany.taxidiscount.R;
 
+import it.neokree.materialnavigationdrawer.MaterialNavigationDrawer;
+
 /**
  * A simple {@link Fragment} subclass.
  */
@@ -23,7 +25,7 @@ public class NoDriversFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
+        ((MaterialNavigationDrawer) getActivity()).setTitle("RIDE");
         return inflater.inflate(R.layout.no_drivers_error, container, false);
     }
 
