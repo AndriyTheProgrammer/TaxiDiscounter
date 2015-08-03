@@ -70,6 +70,13 @@ public class MapsActivity extends MaterialNavigationDrawer {
     }
 
     @Override
+    protected void onPostCreate(Bundle savedInstanceState) {
+        super.onPostCreate(savedInstanceState);
+        getToolbar().setNavigationIcon(R.drawable.menu_ic);
+
+    }
+
+    @Override
     protected void onResume() {
         super.onResume();
         //     setUpMapIfNeeded();

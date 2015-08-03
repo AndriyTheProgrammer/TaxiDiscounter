@@ -34,7 +34,7 @@
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginTop="16dp"
-        android:background="@color/base_yellow"
+        android:background="@drawable/base_button_pressed"
         android:text="TRY AGAIN" />
 
     <LinearLayout
@@ -76,6 +76,6 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        android:background="@color/base_yellow"
+        android:background="@drawable/base_button_pressed"
         android:text="CHANGE YOUR ORDER" />
 </LinearLayout>
