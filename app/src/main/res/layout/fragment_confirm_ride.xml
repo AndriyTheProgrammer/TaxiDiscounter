@@ -117,7 +117,7 @@
         android:layout_height="50dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="16dp"
-        android:background="#5a5b5a"
+        android:background="#000000"
         android:gravity="center"
         android:text="YOUR SAVINGS"
         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -223,7 +223,7 @@
         android:id="@+id/button5"
         style="@style/BaseButtonStyle"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/button_height"
         android:layout_marginTop="10dp"
         android:background="@drawable/base_button_pressed"
         android:text="CONFIRM ORDER" />

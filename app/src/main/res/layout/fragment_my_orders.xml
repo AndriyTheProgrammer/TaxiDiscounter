@@ -7,6 +7,17 @@
     tools:context="com.todocompany.taxidiscount.fragments.MyOrdersFragment">
 
 
+    <RadioButton
+        android:id="@+id/btn_completed"
+        style="@style/BaseRadioButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_weight="1"
+        android:button="@null"
+        android:checked="false"
+        android:text="COMPLETED" />
+
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="50dp"
@@ -23,16 +34,6 @@
             android:checked="true"
             android:text="IN PROGRESS" />
 
-        <RadioButton
-            android:id="@+id/btn_completed"
-            style="@style/BaseRadioButtonStyle"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="1dp"
-            android:layout_weight="1"
-            android:button="@null"
-            android:checked="false"
-            android:text="COMPLETED" />
     </RadioGroup>
 
     <LinearLayout

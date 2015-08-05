@@ -12,7 +12,7 @@
         android:id="@+id/btnProfile"
         style="@style/BaseButtonStyle"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/button_height"
         android:layout_marginTop="8dp"
         android:drawableLeft="@mipmap/profile"
         android:drawablePadding="5dp"
@@ -24,7 +24,7 @@
     <Button
         style="@style/BaseButtonStyle"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/button_height"
         android:drawableLeft="@mipmap/log_out"
         android:drawablePadding="5dp"
         android:gravity="center_vertical"

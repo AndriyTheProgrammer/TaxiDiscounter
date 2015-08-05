@@ -15,7 +15,7 @@
         <item name="android:clickable">true</item>
     </style>
 
-    <style name="BaseButtonStyle" parent="@android:style/Widget.Button">
+    <style name="BaseButtonStyle" parent="@android:style/Widget.Holo.Button.Borderless">
         <item name="android:textColor">@color/base_text</item>
         <item name="android:textSize">16sp</item>
         <item name="android:textStyle">bold</item>
@@ -25,11 +25,12 @@
         <item name="android:layout_marginRight">15dp</item>
         <item name="android:layout_marginTop">3dp</item>
         <item name="android:layout_marginBottom">3dp</item>
+        <item name="android:stateListAnimator">@null</item>
 
     </style>
 
     <style name="MyNavigationDrawerTheme" parent="MaterialNavigationDrawerTheme">
-        <item name="colorPrimary">#ff4a4b4a</item>
+        <item name="colorPrimary">#ff000000</item>
         <item name="colorPrimaryDark">#ff490702</item>
         <item name="colorAccent">#ff007dff</item>
         <item name="sectionStyle">@style/MySectionTheme</item>

@@ -74,7 +74,7 @@
             android:id="@+id/button"
             style="@style/BaseButtonStyle"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/button_height"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="10dp"
             android:padding="5dp"

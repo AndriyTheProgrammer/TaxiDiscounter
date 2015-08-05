@@ -118,7 +118,7 @@
             android:id="@+id/btn_set_pickup"
             style="@style/BaseButtonStyle"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/button_height"
             android:text="ADD LOCATION TO CONTACT" />
     </LinearLayout>
 
