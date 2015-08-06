@@ -17,7 +17,7 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/textView5"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="From"
@@ -32,7 +32,7 @@
             android:background="@color/base_gray_light"></FrameLayout>
 
         <TextView
-            android:id="@+id/textView8"
+            android:id="@+id/findingDriver_fromStreet"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="sefase r5 5 aferg8 ergergw r gthyhh ewrwgregehrtge"
@@ -41,7 +41,6 @@
             android:textSize="15sp" />
 
         <TextView
-            android:id="@+id/textView9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="To"
@@ -56,7 +55,7 @@
             android:background="@color/base_gray_light" />
 
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/findingDriver_toStreet"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="mafafewe gsrlghsr rhjgs nergsn lsrhgselr selrg rg e"
@@ -77,7 +76,6 @@
                 android:background="@color/base_gray_light" />
 
             <TextView
-                android:id="@+id/textView7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Standart fare "
@@ -85,7 +83,7 @@
                 android:textColor="@color/base_text" />
 
             <TextView
-                android:id="@+id/textView10"
+                android:id="@+id/findingDriver_standartFarePrice"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="32,-"
@@ -102,7 +100,6 @@
         </LinearLayout>
 
         <TextView
-            android:id="@+id/textView11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
@@ -113,12 +110,12 @@
     </LinearLayout>
 
     <ListView
-        android:id="@+id/listView"
+        android:id="@+id/findingDriver_listView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <GridView
-        android:id="@+id/gridView"
+        android:id="@+id/findingDriver_gridView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 </LinearLayout>

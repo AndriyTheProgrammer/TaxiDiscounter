@@ -28,10 +28,10 @@ public class MyOrdersFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_my_orders, container, false);
-        btnInProgress = (RadioButton) rootView.findViewById(R.id.btn_in_progress);
-        btnCompleted = (RadioButton) rootView.findViewById(R.id.btn_completed);
-        in_progress_container = (LinearLayout) rootView.findViewById(R.id.in_progress_container);
-        completed_container = (LinearLayout) rootView.findViewById(R.id.completed_container);
+        btnInProgress = (RadioButton) rootView.findViewById(R.id.myOrders_btnInProgress);
+        btnCompleted = (RadioButton) rootView.findViewById(R.id.myOrders_btnCompleted);
+        in_progress_container = (LinearLayout) rootView.findViewById(R.id.myOrders_inProgressContainer);
+        completed_container = (LinearLayout) rootView.findViewById(R.id.myOrders_completedContainer);
         btnInProgress.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

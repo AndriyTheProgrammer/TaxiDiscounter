@@ -21,9 +21,9 @@ public class HelpFragment extends Fragment implements View.OnClickListener {
         drawerActivity = (MaterialNavigationDrawer) getActivity();
 
         Button btnTermsConditions, btnPrivacyPolicy, btnCallUs;
-        btnTermsConditions = (Button) rootView.findViewById(R.id.btnTermsConditions);
-        btnPrivacyPolicy = (Button) rootView.findViewById(R.id.btnPrivacyPolicy);
-        btnCallUs = (Button) rootView.findViewById(R.id.btnCallUs);
+        btnTermsConditions = (Button) rootView.findViewById(R.id.help_btnTermsConditions);
+        btnPrivacyPolicy = (Button) rootView.findViewById(R.id.help_btnPrivacyPolicy);
+        btnCallUs = (Button) rootView.findViewById(R.id.help_btnCallUs);
 
         btnTermsConditions.setOnClickListener(this);
         btnPrivacyPolicy.setOnClickListener(this);
@@ -34,10 +34,10 @@ public class HelpFragment extends Fragment implements View.OnClickListener {
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
-            case R.id.btnTermsConditions:
+            case R.id.help_btnTermsConditions:
                 drawerActivity.setFragment(new TermsConditionsFragment(), "Terms & Conditions");
                 break;
-            case R.id.btnPrivacyPolicy:
+            case R.id.help_btnPrivacyPolicy:
                 drawerActivity.setFragment(new PrivacyPolicyFragment(), "Privacy Policy");
                 break;
 

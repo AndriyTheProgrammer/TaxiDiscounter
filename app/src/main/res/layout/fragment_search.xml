@@ -14,7 +14,7 @@
         android:background="#272727">
 
         <EditText
-            android:id="@+id/editText2"
+            android:id="@+id/search_tvSearchPhrase"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -29,7 +29,7 @@
     </FrameLayout>
 
     <ListView
-        android:id="@+id/searchListView"
+        android:id="@+id/search_listview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 </LinearLayout>

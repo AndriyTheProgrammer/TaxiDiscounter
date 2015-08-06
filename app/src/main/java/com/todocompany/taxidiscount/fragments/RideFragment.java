@@ -39,9 +39,9 @@ public class RideFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         rootView = inflater.inflate(R.layout.fragment_set_pickup, container, false);
-        btnMapView = (RadioButton) rootView.findViewById(R.id.btn_map_view);
-        btnStreetView = (RadioButton) rootView.findViewById(R.id.btn_street_view);
-        mapsContainer = (FrameLayout) rootView.findViewById(R.id.mapsContainer);
+        btnMapView = (RadioButton) rootView.findViewById(R.id.setPickup_btnMapView);
+        btnStreetView = (RadioButton) rootView.findViewById(R.id.setPickup_btnStreetView);
+        mapsContainer = (FrameLayout) rootView.findViewById(R.id.setPickup_mapsContainer);
         streetView = (StreetViewPanoramaView) rootView.findViewById(R.id.streetView);
         mapView = (MapView) rootView.findViewById(R.id.mapView);
         mapView.onCreate(savedInstanceState);

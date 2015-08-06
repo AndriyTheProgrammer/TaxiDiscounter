@@ -26,7 +26,7 @@ public class CancelledRideFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         ((MaterialNavigationDrawer) getActivity()).setTitle("RIDE");
-        return inflater.inflate(R.layout.fragment_cacelled_ride, container, false);
+        return inflater.inflate(R.layout.fragment_canceled_ride, container, false);
     }
 
 

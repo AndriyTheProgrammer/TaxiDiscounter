@@ -9,7 +9,7 @@
     <!-- TODO: Update blank fragment layout -->
 
     <Button
-        android:id="@+id/btnPrivacyPolicy"
+        android:id="@+id/help_btnPrivacyPolicy"
         style="@style/BaseButtonStyle"
         android:layout_width="match_parent"
         android:layout_height="@dimen/button_height"
@@ -22,7 +22,7 @@
         android:textStyle="normal" />
 
     <Button
-        android:id="@+id/btnTermsConditions"
+        android:id="@+id/help_btnTermsConditions"
         style="@style/BaseButtonStyle"
         android:layout_width="match_parent"
         android:layout_height="@dimen/button_height"
@@ -34,7 +34,7 @@
         android:textStyle="normal" />
 
     <Button
-        android:id="@+id/btnCallUs"
+        android:id="@+id/help_btnCallUs"
         style="@style/BaseButtonStyle"
         android:layout_width="match_parent"
         android:layout_height="@dimen/button_height"

@@ -16,7 +16,7 @@
             android:orientation="horizontal">
 
             <RadioButton
-                android:id="@+id/btn_map_view"
+                android:id="@+id/setPickup_btnMapView"
                 style="@style/BaseRadioButtonStyle"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -27,7 +27,7 @@
                 android:text="MAP VIEW" />
 
             <RadioButton
-                android:id="@+id/btn_street_view"
+                android:id="@+id/setPickup_btnStreetView"
                 style="@style/BaseRadioButtonStyle"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -41,7 +41,7 @@
     </LinearLayout>
 
     <FrameLayout
-        android:id="@+id/mapsContainer"
+        android:id="@+id/setPickup_mapsContainer"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="5">
@@ -74,7 +74,7 @@
             android:orientation="horizontal">
 
             <EditText
-                android:id="@+id/editText"
+                android:id="@+id/setPickup_etSetPickup"
                 style="@style/BaseEditTextStyle"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
@@ -88,13 +88,13 @@
                 android:textSize="14sp" />
 
             <EditText
-                android:id="@+id/et_enter_details"
+                android:id="@+id/setPickup_etEnterDetails"
                 style="@style/BaseEditTextStyle"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:layout_weight="4"
                 android:drawableLeft="@mipmap/detail_location"
-                android:drawablePadding="3dp"
+                android:drawablePadding="@dimen/drawable_padding"
                 android:hint="Enter Details"
                 android:paddingTop="5dp"
                 android:textColor="@color/base_text"
@@ -103,7 +103,7 @@
         </LinearLayout>
 
         <EditText
-            android:id="@+id/et_set_destination"
+            android:id="@+id/SetPickup_etSetDestination"
             style="@style/BaseEditTextStyle"
             android:layout_width="match_parent"
             android:layout_height="40dp"
@@ -116,18 +116,11 @@
             android:textSize="14sp" />
 
         <Button
-            android:id="@+id/btn_set_pickup"
+            android:id="@+id/SetPickup_btnSetPickup"
             style="@style/BaseButtonStyle"
             android:layout_width="match_parent"
             android:layout_height="@dimen/button_height"
             android:text="SET PICKUP" />
     </LinearLayout>
-
-    <EditText
-        android:id="@+id/et_set_pickup"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:hint="Set Pickup" />
 
 </LinearLayout>

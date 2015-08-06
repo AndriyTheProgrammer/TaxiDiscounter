@@ -7,24 +7,13 @@
     tools:context="com.todocompany.taxidiscount.fragments.MyOrdersFragment">
 
 
-    <RadioButton
-        android:id="@+id/btn_completed"
-        style="@style/BaseRadioButtonStyle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="1dp"
-        android:layout_weight="1"
-        android:button="@null"
-        android:checked="false"
-        android:text="COMPLETED" />
-
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:orientation="horizontal">
 
         <RadioButton
-            android:id="@+id/btn_in_progress"
+            android:id="@+id/myOrders_btnInProgress"
             style="@style/BaseRadioButtonStyle"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -34,48 +23,42 @@
             android:checked="true"
             android:text="IN PROGRESS" />
 
+        <RadioButton
+            android:id="@+id/myOrders_btnCompleted"
+            style="@style/BaseRadioButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="false"
+            android:text="COMPLETED" />
+
+
     </RadioGroup>
 
     <LinearLayout
-        android:id="@+id/in_progress_container"
+        android:id="@+id/myOrders_inProgressContainer"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:visibility="visible">
 
-        <TextView
-            android:id="@+id/textView16"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:text="In progress (todo remove)"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:textColor="@color/base_text" />
-
         <ListView
-            android:id="@+id/listView3"
+            android:id="@+id/myOrders_inProgressListView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/completed_container"
+        android:id="@+id/myOrders_completedContainer"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:visibility="gone">
 
-        <TextView
-            android:id="@+id/textView17"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:text="completed (todo remove)"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:textColor="@color/base_text" />
-
         <ListView
-            android:id="@+id/listView2"
+            android:id="@+id/myOrders_completedListView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal" />

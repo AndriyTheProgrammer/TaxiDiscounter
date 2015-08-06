@@ -21,7 +21,7 @@ public class SettingsFragment extends Fragment implements View.OnClickListener {
         drawerActivity = (MaterialNavigationDrawer) getActivity();
 
 
-        Button btnProfile = (Button) rootView.findViewById(R.id.btnProfile);
+        Button btnProfile = (Button) rootView.findViewById(R.id.settings_btnProfile);
 
         btnProfile.setOnClickListener(this);
         return rootView;
@@ -30,7 +30,7 @@ public class SettingsFragment extends Fragment implements View.OnClickListener {
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
-            case R.id.btnProfile:
+            case R.id.settings_btnProfile:
                 drawerActivity.setFragment(new ProfileFragment(), "Profile");
                 break;
 

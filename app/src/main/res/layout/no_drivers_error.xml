@@ -6,7 +6,7 @@
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/textView14"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
@@ -19,7 +19,7 @@
         android:textStyle="bold" />
 
     <ImageView
-        android:id="@+id/imageView4"
+
         android:layout_width="wrap_content"
         android:layout_height="200dp"
         android:layout_gravity="center_horizontal"
@@ -27,7 +27,7 @@
         android:src="@mipmap/sad_smiley" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/noDriverError_btnTryAgain"
         style="@style/BaseButtonStyle"
         android:layout_width="match_parent"
         android:layout_height="@dimen/button_height"
